@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="heading"></div>
+    <div class="player-scores">
+        <div id="player-1">
+            <h1>HOME</h1>
+            <div id="team1-points">
+                <p id="team1-point">0</p>
+            </div>
+            <div class="buttons">
+                <button onclick="oneadd1()">+1</button>
+                <button onclick="oneadd2()">+2</button>
+                <button onclick="oneadd3()">+3</button>
+            </div>
+
+        </div>
+        <div id="player-2">
+            <h1>GUEST</h1>
+            <div id="team2-points">
+                <p id="team2-point">0</p>
+            </div>
+            <div class="buttons">
+                <button id="one" onclick="twoadd1()">+1</button>
+                <button id="two" onclick="twoadd2()">+2</button>
+                <button id="three" onclick="twoadd3()">+3</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</html>
