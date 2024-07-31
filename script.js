@@ -5,6 +5,14 @@ let two_count=0
 
 console.log(one_html)
 
+function reset(){
+    two_count=0
+    one_count=0
+    
+    one_html.textContent =one_count
+    two_html.textContent = two_count
+
+}
 
 function oneadd1(){
     one_count+=1
@@ -32,4 +40,5 @@ function twoadd3(){
     two_count+=3
     two_html.textContent = two_count
 }
+
 
